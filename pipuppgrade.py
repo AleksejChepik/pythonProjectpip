@@ -7,7 +7,7 @@ canvas1 = tk.Canvas(root, width=300, height=350, bg='lightsteelblue2', relief='r
 canvas1.pack()
 
 label1 = tk.Label(root, text='Upgrade PIP', bg='lightsteelblue2')
-label1.config(font=('helvetica', 20))
+label1.config(font=('helvetica', 25))
 canvas1.create_window(150, 80, window=label1)
 
 
